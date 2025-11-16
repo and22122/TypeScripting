@@ -198,23 +198,14 @@ var ControlUnit = /** @class */ (function () {
     };
     return ControlUnit;
 }());
+
+var stackPointer = 0x0000;
+
 var instructions = [
-    0x0100, // A = 0100; start of stack initialization at rom 0
+    0x0100, // A = 0100; Setting the starting point for the stack
     0x8490, // D = A
-    0x0000, // A = 0
-    0x84c8, // *A = D
-    0x0000, // A = 0; start of push.D
-    0x94a0, // A = *A
-    0x84c8, // *A = D
-    0x8560, // A = A+1
-    0x8490, // D = A
-    0x0000, // A = 0
-    0x84c8, // *A = D
-    0x0000, // A = 0000; start of pop.D
-    0x9750, // D = *A - 1
-    0x84c8, // *A = D
-    0x84e0, // A = D
-    0x9490, // D = *A
+    stackPointer, // A = 0 # assigning the value to the stack pointer
+    0x84c8, // *A = D; # we now have a stack pointer
 ];
 var mycom = new ControlUnit(instructions);
 mycom.run();

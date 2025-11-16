@@ -33,11 +33,18 @@ The expected minimum amount of time each Sprint for each category is as follows:
 |          |2:57 PM   |        |                                            |10           |
 |          |6:40 PM   |IM      |Learning TypeScript                         |35           |
 |11/10/2025|9:30 PM   |IM      |Working on individual module                |1:16         |
+|11/10/2025|2:00 PM   |MTG     |Class                                       |1:00         |
 |11/11/2025|9:00 AM   |IM      |Working on module                           |3:45         |
 |11/12/2025|6:21 PM   |IM      |Working on module                           |45           |
 |          |9:24 PM   |        |                                            |1:25         |
+|11/12/2025|2:00 PM   |MTG     |Class                                       |1:00         |
 |11/13/2025|7:30 PM   |IM      |Working on module                           |38           |
 |          |9:15 PM?  |        |                                            |1:00?        |
+|11/15/2025|1:09 PM   |IM      |Working on module                           |1:14         |
+|          |8:40 PM   |IM      |Finishing up module                         |20+          |
+|          |          |        |                                            |             |
+|          |          |        |                                            |             |
+|          |          |        |                                            |             |
 
 _Note: Add more rows as needed._
 
@@ -45,7 +52,7 @@ _Note: Add more rows as needed._
 
 |Category                       |Total Time (Hours:Minutes)|
 |-------------------------------|:------------------------:|
-|IM - Individual Module         |8:50                      |
+|IM - Individual Module         |9:24+                     |
 |TP - Team Project              |                          |
-|MTG - Class Meetings           |1:00                      |
+|MTG - Class Meetings           |3:00                      |
 |**TOTAL**                      |                          |
